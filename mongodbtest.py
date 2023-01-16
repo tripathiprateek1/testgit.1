@@ -5,6 +5,9 @@ print(db)
 d={
     "name":"prateek","surname":"tripathi","occupation":"teaching"
 }
+d={
+    "name":"prateek","surname":"tripathi","occupation":"teaching"}
+
 db1=client['mongotest']
 coll=db1['test']
 coll.insert_one(d)
